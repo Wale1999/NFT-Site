@@ -26,5 +26,50 @@ body {
     margin: auto;
     height: auto;
     width: 100%;
-    overflow: auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 100vh;
+    width: 5%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+    padding-top: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar li {
+    position: relative;
+    display: grid;
+    grid-template: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+li a {
+    display: grid;
+    justify-self: center;
+}
+
+li a i {
+    height: 35px;
+    width: 35px;
+    color: #e5e5e5;
+    font-weight: 400;
+}
+
+.log {
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
