@@ -138,7 +138,7 @@ input::placeholder {
 
 .ethereum a {
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
     color: #e8eddf;
@@ -170,7 +170,6 @@ input::placeholder {
 
 .alert-message .bell {
     padding: 5px 10px;
-    border: 1px solid #6c757d;
     border-radius: 2px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
@@ -178,7 +177,6 @@ input::placeholder {
 
 .message {
     padding: 5px 10px;
-    border: 1px solid #6c757d;
     border-radius: 2px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
@@ -201,5 +199,71 @@ input::placeholder {
     border-radius: 50%;
 }
 
+.profile span a {
+    color: #e8eddf;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.profile span i {
+    margin-right: 5px;
+    color: #e8eddf;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
 
 /* end of Input section */
+
+
+/* Beginning of the main header */
+
+.Sub-main {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 93%;
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    position: absolute;
+    background: crimson;
+    margin-top: -550px;
+    /* padding-left: 100px; */
+}
+
+.left .header {
+    width: 76%;
+    height: 30vh;
+    display: flex;
+    background: linear-gradient(140deg, #0496ff, #ff5c8a);
+    border-radius: 15px;
+}
+
+.header .intro {
+    font-size: 25px;
+    word-wrap: ;
+}
+
+.header .img-wrapper {
+    height: 30%;
+}
+
+.img-wrapper img {
+    height: 237px;
+    position: relative;
+    align-items: center;
+    top: 7%;
+    right: 20%;
+    transform: translate(-7%, -20%);
+    justify-content: center;
+}
+
+.right {
+    width: 25%;
+}
